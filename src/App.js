@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>HEY WELCOME TO THE DEPLOYMENT PROJECT</h1>
+      <h1 style={{ color: "red" }}>HEY WELCOME TO THE DEPLOYMENT PROJECT</h1>
     </div>
   );
 }
