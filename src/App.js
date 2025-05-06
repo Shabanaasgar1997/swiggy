@@ -1,13 +1,17 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Home from "./Components/Home";
+import Home from "./CRUD/Home";
+import Read from "./CRUD/Read";
+import Update from "./CRUD/Update";
 
 function App() {
   return (
     <>
-      <div className="App">
-        <h1 style={{ color: "red" }}>HEY WELCOME TO THE DEPLOYMENT PROJECT</h1>
-      </div>
-      <Home />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/read" element={<Read />} />
+        <Route path="/update" element={<Update />} />
+      </Routes>
     </>
   );
 }

@@ -1,0 +1,49 @@
+# CRUD
+
+C ---- CREATE
+R ---- READ
+U ---- UPDATE
+D ---- DELETE
+
+# Manipulation
+
+TODO APPLICAION
+INSTAGRAM ACCOUNT/POST
+
+# BASIC WAY
+
+## ADMIN CONSOLE
+
+CREATE/READ/UPDATE/DELETE OF ALL EMPLOYEES
+
+# FORM
+
+USERNAME ---- SHABANA
+PASSWORD -----SHABANA123
+
+USERNAME ---- LIKHITHA
+PASSWORD -----LIKHITHA123
+
+USERNAME ---- SHABANA
+PASSWORD -----SHABANA123
+
+# API
+
+STORE ALL THE DETAILS
+MOCKAPI (https://mockapi.io/)
+
+CREATE ---- post
+READ ------ get
+UPDATE ------ put
+DELETE ----- delete
+
+https protocol
+
+axios library (https://axios-http.com/)
+
+
+post(endpoint,object)
+
+
+useParams()
+useNavigate()
